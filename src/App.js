@@ -11,21 +11,14 @@ import NotFoundRoute from './components/NotFoundRoute';
 function App() {
   return (
     <Router>
-
-
       <div>
         <NavBar />
         <Routes>
-          <Route exact path="/"
-            element={<Home/>} />
-          <Route path="/about"
-            element={<About/>} />
-          <Route path="/courses"
-            element={<Courses/>} />
-          <Route path="/query"
-            element={<ExemploQuery/>} />
-          <Route path="*"
-            element={<NotFoundRoute/>} />
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/courses" element={<Courses/>} />
+          <Route path="/query" element={<ExemploQuery/>} />
+          <Route path="*" element={<NotFoundRoute/>} />
         </Routes>
       </div>
 
