@@ -17,6 +17,10 @@ const NavBar = () => {
         <li>
           <Link to="/query">Teste Query</Link>
         </li>
+
+        <li>
+          <Link to="/rotaX">Rota Inválida</Link>
+        </li>
       </ul>
     </nav>
   );
